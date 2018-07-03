@@ -21,8 +21,6 @@ class PurchaseResponse extends AbstractResponse {
     {
         $this->request = $request;
         $this->data = $data;
-
-        // print_r('getMessage(): ' . $this->getMessage()); die;
     }
 
     /**
